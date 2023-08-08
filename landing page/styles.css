@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top,#501903,black);
+    color: #fff;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #ffc400;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-links li a:hover {
+    color: #ffd000;
+    text-decoration: none;
+    
+  }
+  
+
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    transition: 3s;
+  }
+  .hero:hover{
+    background-image: url('hero-image1.png');
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc400;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffdb75;
+  }
+  
+  #countdown {
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #ff0400;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  
+  .about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .reviews {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .reviews h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .review {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  .review:hover{
+    font-size: 20px;
+  }
+  .review img {
+    max-width: 100px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+  }
+  
+  .bold{
+    color: #ffc400;
+  }
+  .bold1{
+    color: #ffc400;
+  }
+  
+  .blog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  
+  }
+  #image1{
+    width: 500px;
+    border-radius: 20px;
+  }
+  
+  .blog h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .blog-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .blog-post .step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: 0.5s;
+  }
+  
+  .blog-post:hover .step {
+    background-color: #ffc400;
+    
+  }
+  
+  .content {
+      display: none;
+      text-align: left;
+      width: 100%;
+     
+      transition: opacity 0.5s ease-in-out;
+    }
+    
+    .blog-post:hover .content {
+        display: block;
+        margin-top: 20px;
+      
+    }
+    
+    .blog-post img {
+        max-width: 150px;
+        border-radius: 8px;
+    }
+    .blog-post img:hover {
+        max-width: 190px;
+        border-radius: 8px;
+    }
+    
+    .content h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .content p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .blog1{
+     padding-left: 350px;
+      display: flex;
+    }
+    
+#myBtn{
+       
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc400;
+            color: #000;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+
+          
+        }
+#myBtn:hover {
+          background-color: #ffdb75;
+        }
+  
+    /* Media query for responsiveness */
+    @media (max-width: 768px) {
+        .blog-post {
+            flex-direction: column;
+        }
+        
+        .blog-post img {
+            margin: 0 auto 20px;
+        }
+    }
